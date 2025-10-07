@@ -2,15 +2,12 @@
 <html lang="en">
 
   <head>
-
-    
     <title>Styiler</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
-        <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -20,16 +17,9 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
-
-
-
--->
   </head>
 
 <body>
-
-
 
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
@@ -65,7 +55,6 @@
     </div>
   </div>
 
-  
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
@@ -77,8 +66,17 @@
                         <h1>Styiler</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                  
+                    <!-- ***** Menu Start (ИЗМЕНЕНИЕ: Добавлено меню) ***** -->
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Styiler</a></li>
+                      <li><a href="#about">My</a></li>
+                      <li><a href="#video">Video</a></li>
+                      <li><a href="#music">Sound</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                      
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
                     <!-- ***** Menu End ***** -->
                 </nav>
             </div>
@@ -87,8 +85,6 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
-
-  
   <div class="main-banner">
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
@@ -113,7 +109,7 @@
     </div>
   </div>
 
-  <div class="featured section">
+  <div class="featured section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -191,7 +187,7 @@
     </div>
   </div>
 
-  <div class="video section">
+  <div class="video section" id="video">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -203,44 +199,44 @@
       </div>
     </div>
   </div>
-<div class="video-content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="video-frame">
-            <!-- Замените изображение и ссылку на встраивание YouTube видео -->
-            <iframe 
-                width="100%" 
-                height="500px" 
-                src="https://www.youtube.com/embed/ByLlwq849yc" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+  <div class="video-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="video-frame">
+              <iframe 
+                  width="100%" 
+                  height="500px" 
+                  src="https://www.youtube.com/embed/ByLlwq849yc" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="video-frame">
-            <!-- Замените изображение и ссылку на встраивание YouTube видео -->
-            <iframe 
-                width="100%" 
-                height="500px" 
-                src="https://www.youtube.com/embed/Foa2kBJyZk0?si=9TXCKVywZzWVsZ56" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+  <div class="video-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="video-frame">
+              <iframe 
+                  width="100%" 
+                  height="500px" 
+                  src="https://www.youtube.com/embed/Foa2kBJyZk0?si=9TXCKVywZzWVsZ56" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+
   <div class="fun-facts">
     <div class="container">
       <div class="row">
@@ -301,7 +297,7 @@
       </div>
     </div>
   </div>
-  <div class="section best-deal">
+  <div class="section best-deal" id="music">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -377,9 +373,7 @@
     </div>
   </div>
 
- 
-
-  <div class="contact section">
+  <div class="contact section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -397,7 +391,7 @@
       <div class="row">
         <div class="col-lg-7">
           <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57286.693539127606!2d108.26956930564216!3d10.960436134977428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31768e4c7f7c96b5%3A0x1a406b72c1020724!2zTcWpaSBOw6ksIFBoYW4gVGhpZXQsIELDrG5oIFRodeG6rW4sIFZpZXRuYW0!5e1!3m2!1sen!2sth!4v1759644316554!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57286.693539127606!2d108.26956930564216!3d10.960436134977428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31768e4c7f7c96b5%3A0x1a406b72c1020724!2zTcWpaSBOw6ksIFBoYW4gVGhpZXQsIELDrG5oIFRodeG6rW4sIFZpZXRuYW0!5e1!3m2!1sen!2sth!4v1759644316554!5m2!1sen!2sth" width="100%" height="450px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -414,40 +408,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5">
-          <form id="contact-form" action="" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="name">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="subject">Question</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
+        
         </div>
       </div>
     </div>
@@ -464,7 +425,6 @@
   </footer>
 
   <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/isotope.min.js"></script>
