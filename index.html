@@ -187,7 +187,7 @@
     </div>
   </div>
 
-  <div class="video section" id="video">
+ <div class="video section" id="video">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
@@ -199,43 +199,45 @@
       </div>
     </div>
   </div>
-  <div class="video-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-1">
-            <div class="video-frame">
-              <iframe 
-                  width="100%" 
-                  height="500px" 
-                  src="https://www.youtube.com/embed/ByLlwq849yc" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-              </iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
 
+  <!-- ИЗМЕНЕНИЕ: Обернули оба видео в один общий контейнер video-content -->
   <div class="video-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 offset-lg-1">
-            <div class="video-frame">
-              <iframe 
-                  width="100%" 
-                  height="500px" 
-                  src="https://www.youtube.com/embed/Foa2kBJyZk0?si=9TXCKVywZzWVsZ56" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-              </iframe>
-            </div>
+    <div class="container">
+
+      <!-- Первое видео -->
+      <div class="row mb-5"> <!-- ИЗМЕНЕНИЕ: Добавили отступ снизу (mb-5) для первого видео -->
+        <div class="col-lg-10 offset-lg-1">
+          <div class="video-frame">
+            <iframe 
+                width="100%" 
+                height="500px" 
+                src="https://www.youtube.com/embed/ByLlwq849yc" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
+
+      <!-- Второе видео -->
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="video-frame">
+            <iframe 
+                width="100%" 
+                height="500px" 
+                src="https://www.youtube.com/embed/Foa2kBJyZk0?si=9TXCKVywZzWVsZ56" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 
   <div class="fun-facts">
     <div class="container">
